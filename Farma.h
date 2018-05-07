@@ -3,13 +3,15 @@
 
 class Farma
 {
-	char nombrefarmaco[6] = "atamel";
-	float precio = 55.43;
-
+	private:
+		char *nombrefarmaco;
+		float precio;
 	public:
 		Farma( char*, float );
-		~Farma
-	protected:
+		//~Farma();	
+		void mostrar();
+		
+
 };
 
 #endif

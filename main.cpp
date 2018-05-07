@@ -2,10 +2,10 @@
 #include <iostream>
 
 int main(int argc, char** argv) {
-
-	Farma :: Farma(char * _nombrefamaco, float _precio );
-	Farma-> mostrar();
 	
-	delete(Farma)
+ Farma farmacia("hola",2.0); // estatica
+ Farma* farma = new Farma("chao",3.0);//dinamica
+ 
+	
 
 }
